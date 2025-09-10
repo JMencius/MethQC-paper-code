@@ -29,7 +29,7 @@ Our ONT basecalled data is shared via [ScienceDB](https://www.scidb.cn/en), an o
 ## Possible problem
 1. lftp
    
-   If your operating system does not include `lftp`, try to install `lftp` through conda <https://anaconda.org/conda-forge/lftp> or install `apt` on Ubuntu.
+   If your operating system does not include `lftp`, try to install `lftp` through conda <https://anaconda.org/conda-forge/lftp> or install `apt` on Ubuntu (sudo required).
    ```bash
    # install through conda
    conda env create -n lftp;
