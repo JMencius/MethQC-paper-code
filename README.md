@@ -39,10 +39,10 @@ Most of the following softwares are installed through `Conda` environment. We ha
 
 You can follow the Conda manual in [here](https://docs.anaconda.com/miniconda/) to install `Conda`.
 
-We also provide a `.sh` file for each conda enironment. The installation of each conda environment may take serveral minutes, depending on your system and network speed.
+We also provide a bash file for each conda environment. The installation of each conda environment may take serveral minutes, depending on your system and network speed.
 
 #### Slurm
-For large scale HPRC sample, we run test on slurm 21.08.8-2 on [SJTU HPC π 2.0](https://docs.hpc.sjtu.edu.cn/en/index.html).
+For testing MethQC on large-scale HPRC sample, we used slurm 21.08.8-2 on [SJTU HPC π 2.0](https://docs.hpc.sjtu.edu.cn/en/index.html).
 
 #### Programming language
 To run the Python scripts we provided, Python 3.8 or a higher version is required. 
