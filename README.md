@@ -3,27 +3,21 @@ This repository archives the pipelines and source codes used in the MethQC manus
 
 ## Contents
 The contents are organized into five main folders. Please feel free to click on any title to view the detailed `README.md`.
-1. [Process and QC for ONT data](./ONT/README.md)
+
+1. [Process and QC for ONT data](./ONT/ONT.md)
    - Preprocess of ONT data
    - Calculate correlation with oxBS-seq
-   - Calcultate MethQC related metrics
 
-2. [Process and QC for PacBio data](./PB/README.md)
-
+2. [Process and QC for PacBio data](./PB/PB.md)
    - Preprocess of PacBio data
    - Calculate correlation with oxBS-seq
-   - Calcultate MethQC related metrics
 
-3. [MethQC on compartive samples](./comparative/README.md)
+3. [MethQC on 161 groups of ONT data from Human Pangenome Reference Consortium (HPRC)](./HPRC/HPRC.md)
 
-   - MethQC on comparative samples
-
-4. [MethQC on 161 groups of ONT data from Human Pangenome Reference Consortium (HPRC)](./HPRC/README.md)
-
-   - Preprocess of ONT data
+   - Preprocess of ONT data from HPRC
    - Benchmark MethQC on HPRC data
 
-5. [How to download data from ScienceDB](./ScienceDB/README.md)
+4. [How to download data from ScienceDB](./ScienceDB/README.md)
    
    Instructions for downloading basecalled data from ScienceDB
 
