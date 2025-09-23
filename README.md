@@ -23,8 +23,7 @@ The contents are organized into five main folders. Please feel free to click on 
    - Benchmark MethQC on HPRC data
 
 5. [How to download data from ScienceDB](./ScienceDB/README.md)
-   
-   Instructions for downloading basecalled data from ScienceDB
+   - Instructions for downloading basecalled data from ScienceDB
 
 
 ## Requirement
