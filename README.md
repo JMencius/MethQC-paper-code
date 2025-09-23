@@ -2,15 +2,17 @@
 This repository archives the pipelines and source codes used in the MethQC manuscript.
 
 ## Contents
-The contents are organized into five main folders. Please feel free to click on any title to view the detailed `README.md`.
+The contents are organized into five main folders. Please feel free to click on any title to view the step by step instructions.
 
 1. [Process and QC for ONT data](./ONT/scripts/ONT.md)
    - Preprocess of ONT data
-   - Calculate correlation with oxBS-seq
+   - Modkit pileup of methylation sites
+   - Run MethQC quality control
 
 2. [Process and QC for PacBio data](./PacBio/scripts/pacbio.md)
    - Preprocess of PacBio data
-   - Calculate correlation with oxBS-seq
+   - Modkit pileup of methylation sites
+   - Run MethQC quality control
 
 3. [MethQC on 161 groups of ONT data from Human Pangenome Reference Consortium (HPRC)](./HPRC/scripts/HPRC.md)
 
@@ -24,8 +26,8 @@ The contents are organized into five main folders. Please feel free to click on 
 
 ## Requirement
 ### OS requirement
-Codes were tested on _Linux_ operating systems. The following release is tested:
-Linux: Ubuntu 22.04.1
+Codes were tested on _Linux_ operating systems. Linux: Ubuntu 22.04.1 is tested.
+
 
 ### Software requirement
 #### Conda
