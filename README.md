@@ -4,22 +4,25 @@ This repository archives the pipelines and source codes used in the MethQC manus
 ## Contents
 The contents are organized into five main folders. Please feel free to click on any title to view the step by step instructions.
 
-1. [Process and QC for ONT data](./ONT/scripts/ONT.md)
+1. [MethQC](./MethQC/MethQC.md)
+   - Installation of MethQC
+
+2. [Process and QC for ONT data](./ONT/scripts/ONT.md)
    - Preprocess of ONT data
    - Modkit pileup of methylation sites
    - Run MethQC quality control
 
-2. [Process and QC for PacBio data](./PacBio/scripts/pacbio.md)
+3. [Process and QC for PacBio data](./PacBio/scripts/pacbio.md)
    - Preprocess of PacBio data
    - Modkit pileup of methylation sites
    - Run MethQC quality control
 
-3. [MethQC on 161 groups of ONT data from Human Pangenome Reference Consortium (HPRC)](./HPRC/scripts/HPRC.md)
+4. [MethQC on 161 groups of ONT data from Human Pangenome Reference Consortium (HPRC)](./HPRC/scripts/HPRC.md)
 
    - Preprocess of ONT data from HPRC
    - Benchmark MethQC on HPRC data
 
-4. [How to download data from ScienceDB](./ScienceDB/README.md)
+5. [How to download data from ScienceDB](./ScienceDB/README.md)
    
    Instructions for downloading basecalled data from ScienceDB
 
