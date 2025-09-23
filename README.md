@@ -4,15 +4,15 @@ This repository archives the pipelines and source codes used in the MethQC manus
 ## Contents
 The contents are organized into five main folders. Please feel free to click on any title to view the detailed `README.md`.
 
-1. [Process and QC for ONT data](./ONT/ONT.md)
+1. [Process and QC for ONT data](./ONT/scripts/ONT.md)
    - Preprocess of ONT data
    - Calculate correlation with oxBS-seq
 
-2. [Process and QC for PacBio data](./PB/PB.md)
+2. [Process and QC for PacBio data](./PacBio/scripts/pacbio.md)
    - Preprocess of PacBio data
    - Calculate correlation with oxBS-seq
 
-3. [MethQC on 161 groups of ONT data from Human Pangenome Reference Consortium (HPRC)](./HPRC/HPRC.md)
+3. [MethQC on 161 groups of ONT data from Human Pangenome Reference Consortium (HPRC)](./HPRC/scripts/HPRC.md)
 
    - Preprocess of ONT data from HPRC
    - Benchmark MethQC on HPRC data
@@ -43,3 +43,5 @@ To run the Python scripts we provided, Python 3.8 or a higher version is require
 
 #### Software version list
 | Software | Version |
+|:-----:|:-----:|
+
