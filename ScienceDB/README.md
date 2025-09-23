@@ -1,6 +1,6 @@
 # How to download data from ScienceDB
 ## Introduction
-Our ONT basecalled data is shared via [ScienceDB](https://www.scidb.cn/en), an open, trusted global database for data publishing. We selected ScienceDB over popular options like `Figshar`e or `Zenod`o due to the large size of our data.
+Our ONT basecalled data is shared via [ScienceDB](https://www.scidb.cn/en), an open, trusted global database for data publishing. We selected ScienceDB over popular options like `Figshare` or `Zenodo` due to the large size of our data.
 
 ## Ways to download
 1. Web browser
