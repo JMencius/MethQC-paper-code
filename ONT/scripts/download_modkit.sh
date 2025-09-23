@@ -1,0 +1,4 @@
+#!/bin/bash
+
+wget https://github.com/nanoporetech/modkit/releases/download/v0.5.0/modkit_v0.5.0_u16_x86_64.tar.gz;
+tar -zxvf modkit_v0.5.0_u16_x86_64.tar.gz;

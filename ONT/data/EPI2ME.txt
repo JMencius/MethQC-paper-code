@@ -1,0 +1,12 @@
+s3://ont-open-data/giab_2025.01/basecalling/hac/HG002/PAW70337/calls.sorted.bam
+s3://ont-open-data/giab_2025.01/basecalling/hac/HG002/PAW71238/calls.sorted.bam
+s3://ont-open-data/giab_2025.01/basecalling/sup/HG002/PAW70337/calls.sorted.bam
+s3://ont-open-data/giab_2025.01/basecalling/sup/HG002/PAW71238/calls.sorted.bam
+s3://ont-open-data/giab_2025.01/basecalling/hac/HG003/PAY87794/calls.sorted.bam
+s3://ont-open-data/giab_2025.01/basecalling/hac/HG003/PAY87954/calls.sorted.bam
+s3://ont-open-data/giab_2025.01/basecalling/sup/HG003/PAY87794/calls.sorted.bam
+s3://ont-open-data/giab_2025.01/basecalling/sup/HG003/PAY87954/calls.sorted.bam
+s3://ont-open-data/giab_2025.01/basecalling/hac/HG004/PAY87778/calls.sorted.bam
+s3://ont-open-data/giab_2025.01/basecalling/hac/HG004/PAY88428/calls.sorted.bam
+s3://ont-open-data/giab_2025.01/basecalling/sup/HG004/PAY87778/calls.sorted.bam
+s3://ont-open-data/giab_2025.01/basecalling/sup/HG004/PAY88428/calls.sorted.bam

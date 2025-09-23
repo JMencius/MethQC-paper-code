@@ -1,0 +1,5 @@
+https://downloads.pacbcloud.com/public/revio/2022Q4/HG002-rep1/m84011_220902_175841_s1.hifi_reads.bam
+https://downloads.pacbcloud.com/public/revio/2022Q4/HG002-rep2/m84005_220919_232112_s2.hifi_reads.bam
+https://downloads.pacbcloud.com/public/revio/2022Q4/HG002-rep3/m84005_220827_014912_s1.hifi_reads.bam
+https://downloads.pacbcloud.com/public/revio/2022Q4/HG003-rep1/m84010_220919_235306_s2.hifi_reads.bam
+https://downloads.pacbcloud.com/public/revio/2022Q4/HG004-rep1/m84010_220919_232145_s1.hifi_reads.bam
