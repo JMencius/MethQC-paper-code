@@ -15,7 +15,7 @@ conda env list | grep -q '^methqc ' || { echo "Conda environment methqc not foun
 bash download_hprc_data.sh;
 
 # 3. Conduct alignment and samtools postprocessing
-bash align_sort_index.sh;
+bash align_cat_sort_index.sh;
 
 
 # 4. Test MethQC
