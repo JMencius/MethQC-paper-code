@@ -45,7 +45,16 @@ For testing MethQC on large-scale HPRC sample, we used slurm 21.08.8-2 on [SJTU 
 #### Programming language
 To run the Python scripts we provided, Python 3.8 or a higher version is required. 
 
+
 #### Software version list
 | Software | Version |
 |:-----:|:-----:|
+| AWScli | 2.24.12 |
+| Dorado | 0.7.2, 0.9.5 |
+| MethQC | 0.2.1 |
+| Modkit | 0.5.0 |
+| Pbmm2  | 1.17.0 |
+| Python | 3.8.20 |
+| Slurm  | 21.08.8-2 |
+
 
