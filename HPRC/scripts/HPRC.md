@@ -39,7 +39,7 @@ bash download_rawdata.sh;
 
 3. Conduct alignment and samtools postprocessing
 ```bash
-bash align_sort_index.sh;
+bash align_cat_sort_index.sh;
 ```
 
 4. Test MethQC
