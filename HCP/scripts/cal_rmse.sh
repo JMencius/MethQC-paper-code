@@ -1,8 +1,8 @@
 #!/bin/bash
 
-conda create -n samtools;
-
 conda_base=$(conda info --base);
 source "$conda_base"/etc/profile.d/conda.sh;
+conda activate analysis;
 
-conda install bioconda::samtools;
+
+python cal_rmse.py HCP_regions.txt ../results/avg_rmse.txt;

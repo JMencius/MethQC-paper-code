@@ -1,4 +1,4 @@
-#MethQC on ONT data
+# MethQC on ONT data
 ## Brief
 This directory archives the pipeline and environment for MethQC quality control for ONT data.
 
