@@ -1,6 +1,9 @@
 # MethQC paper code
 This repository archives the pipelines and source codes used in the MethQC manuscript.
 
+## Maintainers
+[Jun Mencius](https://github.com/JMencius/) and [Shuo Jin](https://github.com/JinShuo0101/)
+
 ## Contents
 The contents are organized into six main folders. Please feel free to click on any title to view the step by step instructions.
 
@@ -58,6 +61,7 @@ To run the Python scripts we provided, Python 3.8 or a higher version is require
 | Modkit | 0.5.0 |
 | Pbmm2  | 1.17.0 |
 | Python | 3.8.20 |
+| Samtools | 1.6 |
 | Slurm  | 21.08.8-2 |
 | Numpy  | 1.21.5 |
 
@@ -80,6 +84,4 @@ To ensure that all analyses in the MethQC manuscript can be reproduced, we provi
 > ✅ By following these instructions and using the provided environment `.sh` file, users should be able to reproduce all quantitative results reported in the MethQC manuscript.
 
 
-## Maintainers
-[Jun Mencius](https://github.com/JMencius/) and [Shuo Jin](https://github.com/JinShuo0101/)
 
