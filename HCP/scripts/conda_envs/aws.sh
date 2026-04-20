@@ -9,5 +9,3 @@ source "$conda_base"/etc/profile.d/conda.sh;
 conda activate aws;
 pip install ”awscli>=2.24.12“
 
-aws s3 --version;
-

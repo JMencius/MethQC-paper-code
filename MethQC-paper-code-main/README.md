@@ -1,8 +1,6 @@
 # MethQC paper code
 This repository archives the pipelines and source codes used in the MethQC manuscript.
 
-## Maintainers
-[Jun Mencius](https://github.com/JMencius/) and [Shuo Jin](https://github.com/JinShuo0101/)
 
 ## Contents
 The contents are organized into six main folders. Please feel free to click on any title to view the step by step instructions.
@@ -20,15 +18,22 @@ The contents are organized into six main folders. Please feel free to click on a
    - Modkit pileup of methylation sites
    - Run MethQC quality control
 
-4. [Test MethQC on 161 groups of ONT data from Human Pangenome Reference Consortium (HPRC)](./HPRC/scripts/HPRC.md)
+4. [Grid search for quality control thresholds](./Grid_search/scripts/GS.md)
+   - Grid search over sequencing depth, mapping quality, and strand bias thresholds
+
+5. [Test MethQC on 161 groups of ONT data from Human Pangenome Reference Consortium (HPRC)](./HPRC/scripts/HPRC.md)
    - Preprocess of ONT data from HPRC
    - Test MethQC on HPRC data
 
-5. [Test MethQC on the Hereditary Cancer Panel](./HCP/scripts/HCP.md)
+6. [Test MethQC on the Hereditary Cancer Panel](./HCP/scripts/HCP.md)
    - Test MethQC on Hereditary Cancer Panel data
    - Inter-replicate RMSE
 
-6. [How to download data from ScienceDB](./ScienceDB/README.md)
+7. [Test MethQC on differetial methylation analysis](./COLO829/scripts/COLO829.md)
+   - Quality control for differential methylation analysis
+   - False positive evaluation with or without quality control
+
+8. [How to download data from ScienceDB](./ScienceDB/README.md)
    - Instructions for downloading basecalled data from ScienceDB
 
 
@@ -48,6 +53,7 @@ We also provide a bash file for each conda environment. The installation of each
 #### Slurm
 For testing MethQC on large-scale HPRC sample, we used slurm 21.08.8-2 on [SJTU HPC π 2.0](https://docs.hpc.sjtu.edu.cn/en/index.html).
 
+
 #### Programming language
 To run the Python scripts we provided, Python 3.8 or a higher version is required. 
 
@@ -57,8 +63,8 @@ To run the Python scripts we provided, Python 3.8 or a higher version is require
 |:-----:|:-----:|
 | AWScli | 2.24.12 |
 | Dorado | 0.7.2, 0.9.5 |
-| MethQC | 0.2.1 |
-| Modkit | 0.5.0 |
+| MethQC | 0.5.0 |
+| Modkit | 0.6.0 |
 | Pbmm2  | 1.17.0 |
 | Python | 3.8.20 |
 | Samtools | 1.6 |
