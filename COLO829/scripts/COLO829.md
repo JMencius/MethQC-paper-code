@@ -6,7 +6,8 @@ This directory archives the pipeline and environment for MethQC quality control 
 ## data
 Raw FAST5 file can be retrived from EPI2ME at <s3://ont-open-data/rrms_2022.07>.
 
-Basecalled BAM files can be retrived from [ScienceDB](https://).
+
+Basecalled BAM files can be retrived from [ScienceDB](https://doi.org/10.57760/sciencedb.34487). Basecalling was conducted using `Guppy` v6.5.7 under HAC basecalling mode with 5mC methylation calling enabled.
 
 
 ## Software
@@ -27,6 +28,16 @@ bash ./conda_envs/htslib.sh;
 ```bash
 bash ./conda_envs/python_env.sh;
 ```
+
+4. MethQC
+To install `MethQC`, please follow the instruction in [here](../../MethQC/MethQC.md)
+
+### Install from binary
+1. Modkit
+We directly download the precompiled binary release from nanoprotech <https://github.com/nanoporetech/modkit/releases>
+```bash
+bash ./download_modkit.sh
+
 
 ## Pipelines
 0. Download basecalled BAM files from ScienceDB
@@ -65,7 +76,7 @@ bash run_methqc.sh
 bash qc_effect.sh
 ```
 
-# 7. Analysis false positive count
+7. Analysis false positive count
 ```bash
 bash fp.sh
 ```

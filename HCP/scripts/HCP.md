@@ -26,6 +26,9 @@ Use `pip` to install `numpy`
 bash ./conda_envs/analysis.sh;
 ```
 
+4. MethQC
+Please follow the instruction in [here](../../MethQC/MethQC.md)
+
 
 ## Pipelines
 1. Download reference sequence and install software

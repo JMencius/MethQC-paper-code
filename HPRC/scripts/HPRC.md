@@ -1,52 +1,80 @@
 # Large-scale test of MethQC on HPRC samples
 ## Description
 
-This directory archives the pipeline and environment for large-scale test of 161 groups of ONT sequencing data from Human Pangenome Reference Consortium (HPRC). For more information of HPRC, one can refer to <https://www.nature.com/articles/s41586-023-05896-x>.
+This directory archives the pipeline and environment for large-scale test of 123 groups of ONT sequencing data from Human Pangenome Reference Consortium (HPRC). For more information of HPRC, one can refer to <https://www.nature.com/articles/s41586-023-05896-x>.
 
 
 ## Software
 ### Install from conda environments
 1. Samtools
-Install from `bioconda`, details in <https://anaconda.org/bioconda/samtools>
+Samtools was install from `bioconda` channel, details in <https://anaconda.org/bioconda/samtools>
 ```bash
 bash ./conda_envs/samtools.sh;
 ```
 
+2. Aria2c
+Aria2c was used to download HPRC BAM files. Aria2c was install from `conda-forge` channel, details in <https://anaconda.org/channels/conda-forge/packages/aria2/overview>
+```bash
+bash ./conda_envs/aria2c.sh;
+```
+
+3. Python
+Python environment for overdispersion calculation
+```bash
+bash ./conda_envs/python_env.sh;
+```
+
+4. MethQC
+Please follow the instruction in [here](../../MethQC/MethQC.md)
+
+
+
 ### Install from binary
-2. Dorado
-We directly download the binary release from the official Dorado release <https://github.com/nanoporetech/dorado>
+1. Dorado
+We directly download the precompiled binary release from the official Dorado release <https://github.com/nanoporetech/dorado>
 ```bash
 bash ./download_dorado.sh;
 ```
 
-
-## Data 
-Metadata of the 161 ONT samples are summarized in [here](../data/hprc_samples_metadata.csv).
+2. Modkit
+We directly download the precompiled binary release from nanoprotech <https://github.com/nanoporetech/modkit/releases>
+```bash
+bash ./download_modkit.sh
+```
 
 
 ## Pipelines
-1. Download reference sequence and install software
+1. Download GRCh38 reference and precompiled Dorado, install conda environments
 ```bash
 bash download_hg38_ref.sh;
 bash download_dorado.sh;
+bash download_modkit.shl
 bash install_conda_envs.sh;
 ```
 
 2. Download HPRC data
 ```bash
-bash download_rawdata.sh;
+bash download_hprc_data.sh;
 ```
 
 3. Conduct alignment and samtools postprocessing
 ```bash
-bash align_cat_sort_index.sh;
+bash align_sort_index.sh;
 ```
 
-4. Test MethQC
-We used slurm 21.08.8-2 on [SJTU HPC π 2.0](https://docs.hpc.sjtu.edu.cn/en/index.html). If you don't have slurm install, please use the for loop in Linux Bash.
+4. Run Modkit pileup
 ```bash
-mkdir -p ../results/methqc_output;
-sbatch methqc_R9.slurm;
+bash run_modkit.sh;
+```
+
+5. Run MethQC
+```bash
+bash run_methqc.sh;
+```
+
+6. Calculate overdisperion
+```bash
+bash cal_od.sh;
 ```
 
 

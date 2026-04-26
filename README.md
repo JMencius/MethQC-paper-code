@@ -1,6 +1,7 @@
 # MethQC paper code  
 This repository contains the pipelines and source code used in the MethQC manuscript.
 
+
 ## Contents  
 The repository is organized into the following main folders. Click on each section for step-by-step instructions.
 
@@ -17,22 +18,19 @@ The repository is organized into the following main folders. Click on each secti
    - Modkit pileup of methylation sites  
    - Running MethQC for quality control  
 
-4. [Grid search for quality control thresholds](./Grid_search/scripts/GS.md)  
-   - Grid search over sequencing depth, mapping quality, and strand bias thresholds  
-
-5. [Test MethQC on 161 ONT datasets from the Human Pangenome Reference Consortium (HPRC)](./HPRC/scripts/HPRC.md)  
+4. [Test MethQC on 161 ONT datasets from the Human Pangenome Reference Consortium (HPRC)](./HPRC/scripts/HPRC.md)  
    - Preprocessing of ONT data from HPRC  
    - Evaluation of MethQC on HPRC data  
 
-6. [Test MethQC on the Hereditary Cancer Panel](./HCP/scripts/HCP.md)  
+5. [Test MethQC on the Hereditary Cancer Panel](./HCP/scripts/HCP.md)  
    - Evaluation on hereditary cancer panel data  
    - Inter-replicate RMSE analysis  
 
-7. [Test MethQC on differential methylation analysis](./COLO829/scripts/COLO829.md)  
+6. [Test MethQC on differential methylation analysis](./COLO829/scripts/COLO829.md)  
    - Quality control for differential methylation analysis  
    - False positive evaluation with and without quality control  
 
-8. [How to download data from ScienceDB](./ScienceDB/README.md)  
+7. [How to download data from ScienceDB](./ScienceDB/README.md)  
    - Instructions for downloading basecalled data from ScienceDB  
 
 ---
