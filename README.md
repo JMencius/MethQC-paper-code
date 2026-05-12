@@ -50,8 +50,6 @@ https://docs.anaconda.com/miniconda/
 
 We also provide bash scripts for creating each Conda environment. Installation may take several minutes depending on system configuration and network speed.
 
-#### Slurm  
-For large-scale HPRC analysis, we used Slurm 21.08.8-2 on the SJTU HPC π 2.0 cluster.  
 
 #### Programming language  
 Python 3.8 or higher is required to run the provided scripts.  
