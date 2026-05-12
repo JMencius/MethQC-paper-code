@@ -8,12 +8,12 @@ The repository is organized into the following main folders. Click on each secti
 1. [MethQC](./MethQC/MethQC.md)  
    - Installation of MethQC  
 
-2. [Process and QC for ONT data](./ONT/scripts/ONT.md)  
+2. [Process and QC for ONT data of the Ashkenazi Jewish trio](./ONT/scripts/ONT.md)  
    - Preprocessing of ONT data  
    - Modkit pileup of methylation sites  
    - Running MethQC for quality control  
 
-3. [Process and QC for PacBio data](./PacBio/scripts/pacbio.md)  
+3. [Process and QC for PacBio data of the Ashkenazi Jewish trio](./PacBio/scripts/pacbio.md)  
    - Preprocessing of PacBio data  
    - Modkit pileup of methylation sites  
    - Running MethQC for quality control  
