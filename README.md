@@ -80,7 +80,7 @@ To ensure reproducibility of all analyses in the MethQC manuscript, we provide t
 |:--|:--|
 | **Code availability** | All scripts used in the MethQC manuscript are included in this repository under the corresponding folders (`MethQC/`, `ONT/`, `PacBio/`, `HPRC/`, and `HCP/`). |
 | **Operating system** | All pipelines were tested on Linux (Ubuntu 22.04.1). No OS-specific commands are required. |
-| **Hardware environment** | Tests were validated on standard x86_64 Linux workstations. HPRC analyses were conducted on the SJTU HPC π 2.0 cluster using Slurm 21.08.8-2. ARM or Power9 systems may encounter compatibility issues. |
+| **Hardware environment** | Tests were validated on standard x86_64 Linux workstations. ARM or Power9 systems may encounter compatibility issues. |
 | **Data availability** | Some datasets are publicly available via ScienceDB (see `ScienceDB/README.md`). Others are accessible from AWS S3. |
 | **Dependency management** | Conda environment installation scripts are provided. |
 | **External resources** | All external tools (e.g., Dorado, Modkit, pbmm2) are version-locked and documented. No web-based API calls are required. |
