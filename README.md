@@ -28,7 +28,8 @@ The repository is organized into the following main folders. Click on each secti
 
 6. [Test MethQC on differential methylation analysis](./COLO829/scripts/COLO829.md)  
    - Quality control for differential methylation analysis  
-   - False positive evaluation with and without quality control  
+   - False positive evaluation with and without quality control
+   - Differential methylation analysis for gene promoter regions 
 
 7. [How to download data from ScienceDB](./ScienceDB/README.md)  
    - Instructions for downloading basecalled data from ScienceDB  
@@ -65,8 +66,10 @@ Python 3.8 or higher is required to run the provided scripts.
 | Pbmm2    | 1.17.0 |
 | Python   | 3.8.20 |
 | Samtools | 1.22 |
+| MethylKit| 1.36.0 | 
 | Numpy    | 1.21.5 |
-| Scipy    | 1.7.2 |
+| Scipy    | 1.7.3 |
+| Statmodels | 0.14.6 |
 
 ---
 
@@ -78,11 +81,11 @@ To ensure reproducibility of all analyses in the MethQC manuscript, we provide t
 |:--|:--|
 | **Code availability** | All scripts used in the MethQC manuscript are included in this repository under the corresponding folders (`MethQC/`, `ONT/`, `PacBio/`, `HPRC/`, `COLO829/`, and `HCP/`). |
 | **Operating system** | All pipelines were tested on Linux (Ubuntu 22.04.1). No OS-specific commands are required. |
-| **Hardware environment** | Tests were validated on standard x86_64 Linux workstations. ARM or Power9 systems may encounter compatibility issues. |
+| **Hardware environment** | Tests were validated on standard `x86_64` Linux workstations. `ARM` or `Power9` operating systems may encounter compatibility issues. |
 | **Data availability** | Some datasets are publicly available via ScienceDB (see `ScienceDB/README.md`). Others are accessible from AWS S3. |
 | **Dependency management** | Conda environment installation scripts are provided. |
-| **External resources** | All external tools (e.g., Dorado, Modkit, pbmm2) are version-locked and documented. No web-based API calls are required. |
-| **Expected outputs** | Expected output files are described in each corresponding README file. |
+| **External resources** | All external tools (e.g., Dorado, Modkit, and pbmm2) are version-locked and documented. Python packages without strict version requirements are not version-pinned. |
+
 
 
 
