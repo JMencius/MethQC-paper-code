@@ -29,7 +29,12 @@ bash ./conda_envs/htslib.sh;
 bash ./conda_envs/python_env.sh;
 ```
 
-4. MethQC
+4. MethylKit
+```
+bash ./conda_envs/metylkit.sh;
+```
+
+5. MethQC
 To install `MethQC`, please follow the instruction in [here](../../MethQC/MethQC.md)
 
 ### Install from binary
@@ -81,9 +86,16 @@ bash qc_effect.sh
 bash fp.sh
 ```
 
+8. Conduct differential methylation on gene promoter region with or without MethQC
+```bash
+bash diff_promoter.sh
+```
+
+
 ## Repeat our results
 To repeat our results, please run `run_all.sh`
 ```bash
 bash ./run_all.sh;
 ```
+
 
